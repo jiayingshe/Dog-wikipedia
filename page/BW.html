@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> 狗狗百科全書 </title>
+	<link rel="stylesheet" type="text/css" href="../css/my_css_07_new.css">
+	<script type="text/javascript" src="../js/main01.js"></script>
+</head>
+<body>
+	<header></header>
+	
+	<nav>
+		<span class="main-menu"><a href="../index.html">首頁</a></span>
+		<span class="main-menu" onmouseover="switchMenu(this, 'SubMenu1','MouseOver')" onmouseout="hideMenu()">關於狗狗<span style="font-size:9px;">&#9660;</span>
+			<ul id="SubMenu1" class="sub-menu" style="display:none">
+				<li><a href="DP.html">認識狗狗</a></li>
+				<li><a href="know.html">養狗狗須知</a></li>
+			</ul>
+		</span>
+		<span class="main-menu" onmouseover="switchMenu(this, 'SubMenu2','MouseOver')" onmouseout="hideMenu()">狗狗種類<span style="font-size:9px;">&#9660;</span>
+			<ul id="SubMenu2" class="sub-menu" style="display:none">
+				<li><a href="the QM.html">超小型犬</a></li>
+				<li><a href="CHTB.html">小型犬</a></li>
+				<li><a href="PPOWONV.html">中型犬</a></li>
+				<li><a href="the RC.html">大型犬</a></li>
+			</ul>
+		</span>
+	</nav>
+	
+	<main>
+		<span class="main-menu-1"><a href="the RC.html">藏獒</a></span>
+		<span class="main-menu-1"><a href="GDL.html">羅威納犬</a></span>
+		<span class="main-menu-1"><a href="the AP.html">阿富汗獵犬</a></span>
+		<span class="main-menu-1"><a href="the YM.html">基伯納犬</a></span>
+		<span class="main-menu-1"><a href="AW.html">黃金獵犬</a></span>
+		<span class="main-menu-1"><a href="BW.html">阿拉斯加雪橇犬</a></span>
+		<span class="main-menu-1"><a href="CW.html">伯恩山犬</a></span>
+		<span class="main-menu-1"><a href="DW.html">威瑪獵犬</a></span>
+	</main>
+	
+	<div class="full-width clearfix">
+		<div class="fixed-width">
+			<aside class="col-lg-1">
+				<h1 style="letter-spacing: 3px;"><u>阿拉斯加雪橇犬</u></h1>
+				<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEBUQEhIWFhUVGBYVFRUWFhgVFxYYFxgXFhgYFxgYHiggGBolHhYXITEhJSkrLi4wFx8zODMuNygtLisBCgoKDg0OFxAQGCsdHR0rLS0tLS0tLSsrLS0tLS0tLS0rLS0tLS0rLS0tKy0tLS0rLS0tKzcrKysrKzctLSsrLf/AABEIAKgBLAMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAAAQYEBQcDAgj/xABAEAABAwIEAwUGBQEHAwUAAAABAAIRAwQFEiExBkFRImFxgZEHE6GxwfAUMkLR4VIVI2JygpLxJFTSFjNDU7L/xAAYAQEBAQEBAAAAAAAAAAAAAAAAAQIDBP/EABwRAQEBAQEBAQEBAAAAAAAAAAABEQISMSFRQf/aAAwDAQACEQMRAD8A7QiIgIiFAREQEREBERAREQEUqEBERARIRAREQEREBEXP/bXib6WHNo0yQ65qsokjfJBe4eBygHxQXyjXY8SxzXAaEtcHCemi9FwKxwS7woDELWr7wsANegNA9n6gY3gd0jcc12/A8WpXdvTuaLg5lRoI6g82no4GQR1CSrZjORF517hlNud7mtaIlziGgToNSqjxxTEaVvRfXrPDKdMZnOPIdwGpJOgA1JKqfDntPsby4Fsz3tNzjFM1Wta2oegLXGCeQdE+OirntCxAYpe0MLt6odQpj8RcvYZBjRrJGhgEnxcOi1XE3C1D3f8A0rPd16Qz0y2Zc5naH+qQCs3rGpza7ci03B+OtvrKldDQubFRv9FRuj2nwM+ULdBaZQilFBCIiApUBSgKApUQglQVMKEBERAREQEREBSoRAREQERAglQiICIiAiJCILnPFr23WKMokSyxpOrO6GtVjIPFrWz/AKl0ZUe1sm0ri7qPBzVnznOxAEBs8j3LPVxvibVe4UxFtYuYdSJDgT10O65txK51nevt7GvUyzmAY4jK4mYMGCWx8Fl8Q3NSyu6oou0eDHn9QtLZAtYcutR856h1OvQ9Vnn+t9fx0+h7aagbDrNpcNCRVIBIiTBboFUuL+MbzFmGmMjKdNweKTP1QIlzj+aJPRYfCGD06v4r3mppW1Wq0T+poG602EMdMtMFatYk/V89jdzbtFem7s3Jjsu0JYNg3wMk+K+6+Mu/tP3YOjXcuekqmXbH1XteyG1WbPEgnxjdWfAaTxX/ABL3NBce1JiDtt02XLr+uvP8dI4SsH217VLNKFy0VCzYNqjdwHKR66K8qn4LitAupubVD5MdkF2sRAACuA1XTi7HLuZRERbYEREURFKAiIiChSoRRERAREQEREBFKIIREKAiIgIiICIiApREHw9wAJJgASSeQHNcdxr2ltZUqimzMwkwTlId5TI8wuncU1GNs6rqgDmBpJaXBodps4nlsvzBWcKlwS6AJLjEbdANB8AO5Z6mtc3HrxBiprPNVwAL9Y5AFWXgvhz8dTIY+Mu87SVSnUnV6ryO8+XIaBXfgjiKhhzgyHOFV7RUqTo0iBoOY7QnpKfD9teFvhtawxKpbVo/vrW5aCNiDTc4fGmFYfZ17PxVtWXNdxHvW5mNH9J2cfFbbiyk29xW1psEZLe5Jf8A1GpSe1oHhufReuBcUi3wnNVGU2rRTAG1UBvYy89dAVm/Gv8AXOeLHi1u3W4Mlh+G43WHiF2arA4HLUbseo6bq40qlTEnmhUt6NV9RjqgrUCAaURBqAuIc0kwOZ100KpXElt+GunUIgtiR5SnOU6ljE4dxWrRqgio9rJGbKTp3xInwX6lwGu59vTc5+ckCXZXMJ7y12rT3L8oMMVMw0ncL9AezLH3Post6hmBDCZGg1ygn82nLl3hbY/x0BQiKoIiICIiAiIiCIiKIiICIiAiIgkIoRBKKFKCEUoghERAREQJSUWHi94KNF9Qz2QSIQUr2n3jn0XUWkBo1dB18+g+vSAVxzhTh2te3Jp0uyNZef0jqf2V0x3Efe2j3tJLnlx5mBzPit77G7NraLqgiTH3KzG78aO89nIw+m67p1zVcBlyuaA0OPOOfgtZxDhFncW34qi5zHODfeUWGGmrIH5OTjHLuPJdlx63aaLgdnGSFTsKwSi26Dw0a9qOQjmAsrPjScDtuvxrBXBJZQexoLSAAWkdOp37/BfDuEa76RcabzRLpczNuAdTHWJiFfaTWMuqtxUcG5WNY2SByLjv5Kw2Nw2owOaQQdRBlX7E3Fcw2xo21L3dlQa01CJytA0I/M4jUwPit0MLovANSlTe4aAuY1xjxI0WZnAChlRJDXOfaVwXRdRNejTDHt1OUQCO8BaT2c38OYwth7SGnUSRPMETHqB3Lq+I1BkMxsuH0qrRihAkCd5Gh5EcvVTVfoUHRSsfDqhdSYSZMCTEa+B28FkLo5iIiAFKIghEUoChSiCEUqEBERAREQEREBF5167WNL3uDWjUucQAPElc/wCJPaza0ZZat/EP/qnLSHnu7y9UHRUhcCxDj3FLkhorCi105RRGXXoXan4rU1L6/J1vK8ASCaz+kkb8jPoO5Z9RrxX6ShF+Xa3EuIUXH/q7gHY/3rz8z3r7PGuIuIP42vIHJ/Sem/mrqY/TlWs1olzg0DmSAPisCrxDaNdkddUQ7oarP3X5dxTGK9Z2atWqVHbS9xd5arXCpP8AwmmP1Nc8aYcwkOvKUjkHZvkuYcee0E3U29tIpc3kRmHhMrl/vY0B1WypUoEwdd0qyLThdcPtalH/AAmCfnH3zW39lONtpg0naax/yqTTxH3TCG7uPa8Byn4nyWZw9izKV42qGiH6a6AGe/YbGVla7TxPiAFGRz5rRYLd5gXg6tY713HyXhxLigfSEHfp9FquHMQYx5a8wx7S0np0P31WN/W8/FB4uxp9xfVZLoaQ0BxIjLDToNB2gT6K8+w3EKhrXFLtilkbUDHEnKS7QzA3E+MKq8aYWG1nVHAgO2exrjnjY6dknv0Vi9mGIe4LmMpPLH6l2R4M7SS783qujm69WqiY6nQdV4VqdbcAeq+LKgalQVnCA0Qyd9YLj3bD0Wwq+Kxa1FexllYUnEuaNDpz8iuKWOb8a947cddT4d/Rdo4muctF0gmAdtP48lyPhZjc7nuEtc46HmO4/wA9NlOVrufB9XNaU3NcXMI7IJzFkGCwnmAQQt4tJw1SaKeZhkOjN2p1gAPI5OgAO6xOmq3i7OVQiIglEREESFCKlFCIJUIiCVCIiCIiAtJxVxRb4fR97XdqZyUx+eoejR9dln4piVK3pOrVnhrGiSTz7gOZ7gvz3xJcXWJ3LrirIpiRTbrDGTp68zqpbI1JrB4n4sucRqzVdDJPu6QMMZ0/zHvOq8LCxBOsOjcbHvEde5ZNthQafyeOuv8AK2rLGmSOzECDC53t1nDyNEMAEl1N35Hj9J5gzrG+h23WZlBbD25oO430B18DGoXhcYc4AwXawCCTrA0PivG2uKjDpp0Gw+/271jVYOMYPoTTJc3UxBmSd46RCqdem6mYO3y8CuuYMxteGOEHaeUR8oELxxfgH3oLhALhty7tFqdJY5C+qSvWl4rOx/A32lX3bxuJB7lry+AurlWTbdonXRWSxb763ygiGb6nX1+qr9iwFm3rKysCxH3dWDq0mDE+mylaj1uKZPgOiwKxIPTmOs9V0enh1OqzM2B4CVXsW4fImAfmT3mFnVxjYVxHLRTqHUTz39VvKVXbv0VEvsPc2ZERzW0wXE3aMqbDYnwU6m/FlXe3varW5Wu7J/SQHD0KtXDNo90Of+Qa5QA0eYA1VfwS1Dw1/IxBC6DhzQwZeS5bW/xuKdfs6LFurjb49yxbW43b0MfEH6rFxC5ABJMQR8Y39VrdTFc47uc1AsB1PZBB5xz8lUba3NPsRO22/od1vbyalY1BOVoHfLo0dB7tCFl2WHyMzmwZ0I6fEhWVKunAT3fhocdjoDvHqrOtJwrTikfHu+i3S7T45VJUIiqAUqEREqFKhARERRERARFKIhfFaoGtL3GA0EknkAvtc09qF8+rVp2dI7duqA540/pcGuAI8QpbiyNbilxWxK5948RasMU6ckTH/wAhjR09F7XGHkNytGXwWZhjXZQ0gQNt9FnVWABebu69HP4pV9h8GTPyP7LVVLjKYDo5bq24o0EGVzrF7nLV0HNZ5u/jpZi0NvQQJHTXw0WqvLxs5RqdNh9gLXuvCWd5ECNgt3whwrVuHZ3aN5zrKs/GauPCGG9kPnpHlpPnr6K0XEAKGW7aFIAfpHy7vVay8vfHxGvxV3Gccr9rjx72nG4Blc9JVz9qFxmr0+5pmfFUye5d+fjj19bfBaggtWFfUy15PI+iixrZXgrdYjZmozMD3p8q/Y+uHeInUiGklwGyttDGm3AytdkP6iYLj3N5eeq5laCKgB6rfMw+o90MB7o0SwlWHEKVJsAlvaMAE5nOPcBqStM2xLHS8HkBI6k9PvRe1malu+alElxjtyZAHJvRbmhdtLw+s6T+anABaORaY38Vj403vDQM5WnK4AODf0uHMevzV0oVJAIP30XPbW6piq19N0l2pA2bEGPOCPPuVxsq4JLOe47wdj3/AMLFjbYtqxUPeAfRYONy4QOY+GnyIBX055D9RrBHdpsQsXELpoaXyNNwev7pIVq237BUbbPYWk6yTo6N46/yvfHr2ragOpZH09AWucQ4TzaY18CsfiG3ovpQ52Sow56Tu/pHMHaFpLLA7m5qBziQwaRJifArUZrt+CUctvTHMtDie9wn6rOXhYiKVMdGNHoAFkLu4oRSoQEREBFEpKIledWsGiTssDHMVbb0i909ABEk+egXMcS4wqveZfA6At08SN1m9Y3OddKvMYyHYEQCDO8HtD0281qMd4nLKNT3X/uMcxzTycwvbuP8uYFUCvxCXN7R17itTcYu5xkmeQ8lj1W/Mdlw7iBtR5DiA0NBJ74Bd8SR5LNtsaovcWB2o5kQDPSVxewxZ3LSVtm3j3Dsvhye6eI6tiuK0bai6vWqNZTaJLiY8AOpPIBcn4duxde9vIj3tR0Cdmgw3z+srV8QVnXDWsr9oNnKCCT3wZ3XjwnU90TSM5TsCZI8/vmr1diTnK6BRqACPv8AleF1XheTK/TQfLuWoxe9OzfXmuPXx15+sPGL8QQT8Vzq/mpVIaNzpCulvhDrh+QSSem/j3K5YDwJSpEOcJO5nXVZ4mVruxVuGODKj8rnjTvXVbK1bRphrRACyXZKTOQACpmM8WtkilDmiRmMgT0HWO7qumZ+ufrW9xC8idRoJ1VSur1s6ExED9lrbjE6lUeJjxjn5fVYF+HOb3QfHQn6LP8AqqRxjcZ689BHxK0jAtvxFSOYmPuAVq6DJC7z45X6NYrJghztynYLSUGDZbbDWFrpiO4KVYwsVsiyrmHVdN4Is2uYHRJ0M/SVV8QtM7O+Fa/Z1WBoADdpII80t/Fz9W84Ux4Gem098yflCwq3Clu4FuSDoQQYcD4rdtdoDr5D+F9mp9/fiuV6akUC/wCFnsdmbo4DSqzYiTHvaZ28RppyC1+G39WhW9zXboT2TroHf0n+nnHL1XS6gBIdzGnkdx3jQGFo+IsKp1WajUbOG46Hv1UlV83NXsNcDMDfrEytPe34BIdTDmuBadNNtB5/svYVSKbWc4GnlHzWThGEx26hknWDyOyowcGwB73tq1ico/Kzp5q6UmgLwYYEfYUmrCsqVa8OP90375rKWvwSqHUWuBka6+ZCz13jhUqERUFIUIg+FMr5lfL3gCSgoXtOxr3NItzBpOwGr9dA4kfl5wBqeoXGTeumXEyeurj+yuntFxKm+s4sa9xBMEtc1pcd3knoIaByA81zh8zOplYs1uVt/wAbzJhY5vp11Wqq1dgvOpcEED7+9/VPK6s9hfg6TBVhsK5mJXPKVRzYcJVkwu+loMwfhKxY1KuN3SzifNaao3I/MPNbG1vszddCO/TyWDfVmnf1/kLOq3dG+lmhjl6/utvY8NueQ6o8NadYGrzPXkPVc+F2WkQSY5QV0HAb5xotcTPXnsn5/oteG4dRoNy02gT+Z27nHvKyri8ZSpuqPIDWNLnHoAJK0RxXIAdx1Xw+/a8EEAg6Gdj3ELWxmxz3GeKq17UOZxZQGoYDAjq8/qPwU2Np70hx7LB+UHcjrCsN9RwumW+8bSaZkNaS3zgEBezMYsj2aFNhPZ1DdNSAe11Ak7rNajxt7OmBqvLErduWRy6a/Dottc1qLQAwhrjyndTSc2NfhyXNpy3iO0aRp98lVLZkOIXYscsaZYSQI5CFzC8oNZWMHbZduKx1EUraHd/yW4o0Yg9Nv3XhYNB1yrYUgSZgnoBqqjNY3seS8eGrh9El7RoSZHmsttu7LL9OgW2wiyb7oevxWasWTB8QNUDSOv8AK3jaLY1WgwjKyVtDeBZnP9avX8ZFQAc1j1aReCBBlY9e4BEr3tqoDR3rXnGdah2HOY9riNpHURyWwa4NGvl6rNLwtff2AqDsvLD3aj0/lTDUfiJMDzKitetbDRzWIbWoxkCHeBg/FaS/NVjg97HNHUjTpvspI1q74Xiz6egjJvl5a8xGytlrctqNzNP8eK5nb3Y9DCzP7WdSLS1+XMQNO/QTPfouk6xzvOuiqVUKHFL2kB4DhtOx+CtFtcB7Q9p0K3OpWLzY9pRfMqQVpl4yoJXzKSisa6sm1BDhK0V7wVZ1TL6LT4zHpMKykopgp59nlj/29Mf6V8n2d2P/AG9P/YPmrkiYKlR4Asm7UKf+0H5rLpcIWrdqLP8Aa39lYUTF1rKOB0W7U2jwC9/7Op/0D0WYiYmtfVweg7em30WDe8MU3tyse6lG2XKfgQt6il5lWWxUavB78pDbkf6qU/J6xLnhK790WMr0yepDmz6SryoU8RfdcYxX2b4jUa3WgXNkAio7VszBlm4ledzwLigyspNY1jWgQKoBJkyTprK7XCJ4h7rlnD3BN217TcBuhlxz5zps0dytlPhSgNqcR/jf/wCSs8JCTmQvVVerwpQdqWT4ucfmVhf+g7QGRQpg7zCukJC1kTapp4No/wD1s+Kk8Llo/u2sH34K4QkKeV9VzXEeFbo6gNPgf3WLRsbmizIaLyP8LHn6LqRaoyqeF9OXU8UDNHhzf8zS35hZjMYonZ7fULojmLGrYdSf+akx3ixp+YTye1CqX7eTh6r1oYm3QT4K01eGLN29rS8mBv8A+YWFW4HszMMeyf6ajvk4kJ5PTXUL2TBXvVuxt1UP4Jy60rmoCBAFQNePgAVg4tgF/wC7DKQovd+pxcWz4AjTRS81djxpYm2coPWTMg9NV5U8bYJB1a6ey4bgaOBBWguuEMWIAbSpgRDstVgnU/T6pT4DxF1JlN1NgLXEkmqII1gaSf8AhZ81r1GfjdVtu33rAXUnjOwdCN2E+hHUeCrtXiIOa2u5pkOygZuyYhw321G/kur8O8PZLYUrplN7p1H529w7Q+i9H8EYe7Q2dGDqQGACfJa8az7cqsuKqlR0FogDYE9Y5rq/s5v3VLY5jMHffXmvmhwLhzPy2rGzvGYfVbvC8MpW7clGm1jejRAV55yp11raykryDkzLbD4RSiCFClEEKURAREQQiIgQiIgQiIgQiIgQkIiBCQiICQiIEKMqIgZVGVEQMqZURAyKMiIge7QMREE5VOVEQIUoiCUREH//2Q=="><br>
+			</aside>
+			<article class="col-lg-1">
+				<p class="center-text">阿拉斯加雪橇犬（英語：Alaskan Malamute）</p>
+				<p>&nbsp;&nbsp;是一種最古老的雪橇犬和寵物犬，最明顯的特徵是巨大無比的體型。 這種狗與同在阿拉斯加的普通犬種不同，牠們臉型圓潤可愛、四肢健碩粗壯，培育牠的目的是為了在拉雪橇上展現超人的耐力，速度、嗅覺或者攻擊力。
+				</p>
+			</article>
+		</div>
+	</div>
+	
+	<footer class="full-width">
+		<div class="fixed-width">
+			<ul>
+				<li class="col-lg-1">網路程式設計  梁芳瑀 佘佳穎 盧冠寧 張蔡大鈞 高廷</li>
+
+			</ul>
+			</ul>
+		</div>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> 狗狗百科全書 </title>
+	<link rel="stylesheet" type="text/css" href="../css/my_css_07_new.css">
+	<script type="text/javascript" src="../js/main01.js"></script>
+</head>
+<body>
+	<header></header>
+	
+	<nav>
+		<span class="main-menu"><a href="../index.html">首頁</a></span>
+		<span class="main-menu" onmouseover="switchMenu(this, 'SubMenu1','MouseOver')" onmouseout="hideMenu()">關於狗狗<span style="font-size:9px;">&#9660;</span>
+			<ul id="SubMenu1" class="sub-menu" style="display:none">
+				<li><a href="DP.html">認識狗狗</a></li>
+				<li><a href="know.html">養狗狗須知</a></li>
+			</ul>
+		</span>
+		<span class="main-menu" onmouseover="switchMenu(this, 'SubMenu2','MouseOver')" onmouseout="hideMenu()">狗狗種類<span style="font-size:9px;">&#9660;</span>
+			<ul id="SubMenu2" class="sub-menu" style="display:none">
+				<li><a href="the QM.html">超小型犬</a></li>
+				<li><a href="CHTB.html">小型犬</a></li>
+				<li><a href="PPOWONV.html">中型犬</a></li>
+				<li><a href="the RC.html">大型犬</a></li>
+			</ul>
+		</span>
+	</nav>
+	
+	<main>
+		<span class="main-menu-1"><a href="CHTB.html">貴賓犬</a></span>
+		<span class="main-menu-1"><a href="CDB.html">蝴蝶犬</a></span>
+		<span class="main-menu-1"><a href="CCCB.html">巴哥犬</a></span>
+		<span class="main-menu-1"><a href="the A.html">西高地白梗</a></span>
+		<span class="main-menu-1"><a href="the KHL.html">比熊犬</a></span>
+		<span class="main-menu-1"><a href="the NMI.html">杰克羅素梗</a></span>
+		<span class="main-menu-1"><a href="G.html">柯基犬</a></span>
+		<span class="main-menu-1"><a href="the DL.html">雪納瑞犬</a></span>
+		<span class="main-menu-1"><a href="the SG.html">法鬥</a></span>
+	</main>
+	
+	<div class="full-width clearfix">
+		<div class="fixed-width">
+			<aside class="col-lg-1">
+				<h1 style="letter-spacing: 3px;"><u>貴賓犬</u></h1>
+				<img src="data:image/webp;base64,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">
+
+			</aside>
+			<article class="col-lg-1">
+				<p class="center-text">玩具型貴賓犬（Toy Poodle）</p>
+				<p>&nbsp;&nbsp;是一種敏捷、聰明而、優雅的寵物犬，長方形體型、比例勻稱，步伐有力而自信，是服從性競賽中的強手。它們的毛質和外觀獨特，在展會上常被修剪成獅子的模樣，其實它們需要按傳統方式修剪和精心美容，使它具有與眾不同的神態和特有的高貴姿態。這種犬可愛而長壽，但有時很吵鬧，很萌，而且是兒童比較喜歡的寵物。此外，購買時要注意狗狗有沒有各類疾病。
+			</article>
+		</div>
+	</div>
+	
+	<footer class="full-width">
+		<div class="fixed-width">
+			<ul>
+				<li class="col-lg-1">網路程式設計  梁芳瑀 佘佳穎 盧冠寧 張蔡大鈞 高廷</li>
+		</div>
+	</footer>
+</body>
+</html>

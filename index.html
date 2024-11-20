@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title> 狗狗百科全書 </title>
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.css' />
+
+  <script type="text/javascript" src="./js/main01.js"></script>
+
+</head>
+
+<body>
+  <!-- 抬頭顯示 -->
+  <header></header>
+
+  <!-- 導覽列 -->
+  <nav class="full-width">
+    <span class="main-menu"><a class="setting" href="index.html">首頁</a></span>
+    <span class="main-menu" onmouseover="switchMenu(this, 'SubMenu1','MouseOver')" onmouseout="hideMenu()">關於狗狗<span
+        style="font-size:9px;">&#9660;</span>
+      <ul id="SubMenu1" class="sub-menu" style="display:none">
+        <li><a href="page/DP.html">認識狗狗</a></li>
+        <li><a href="page/know.html">養狗狗須知</a></li>
+    </ul>
+  </span>
+  <span class="main-menu" onmouseover="switchMenu(this, 'SubMenu2','MouseOver')" onmouseout="hideMenu()">狗狗種類<span style="font-size:9px;">&#9660;</span>
+      <ul id="SubMenu2" class="sub-menu" style="display:none">
+        <li><a href="page/the QM.html">超小型犬</a></li>
+				<li><a href="page/CHTB.html">小型犬</a></li>
+				<li><a href="page/PPOWONV.html">中型犬</a></li>
+				<li><a href="page/the RC.html">大型犬</a></li>
+      </ul>
+    </span>
+  </nav>
+
+  <!-- 主要畫面顯示 -->
+  <div class="full-width">
+    <main class="fixed-width">
+      <!--image slider start-->
+      <div class="slider">
+        <div class="list">
+          <!--slide images start-->
+          <div class="item">
+            <a href="./page/DP.html"><img src="認識狗狗.png"></a>
+          </div>
+          <div class="item">
+            <a href="./page/know.html"><img src="養狗你要知道的事.png"></a>
+          </div>
+          <div class="item">
+            <a href="./page/CR.html"><img src="狗狗種類.jpg"></a>
+          </div>
+          <div class="item">
+            <a href="*"><img src="馬爾.png"></a>
+          </div>
+          <div class="item">
+            <a href="*"><img src="拉不拉多.png"></a>
+          </div>
+        </div>
+        <!--button prev and next-->
+        <div class="buttons">
+          <button id="prev">
+            &lt;</button>
+          <button id="next">&gt;</button>
+        </div>
+        <!--dots (if 5 items => 5 dot)-->
+        <ul class="dots">
+          <li class="active"></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </main>
+  </div>
+
+
+  <footer class="full-width">
+    <div class="fixed-width">
+      <ul>
+        <li class="col-xl-1">網路程式設計  梁芳瑀 佘佳穎 盧冠寧 張蔡大鈞 高廷</li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+<script type="text/javascript" src="./js/slider.js"></script>
+
+</html>
